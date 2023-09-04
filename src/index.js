@@ -1,1 +1,1 @@
-console.log("Boymycon");
+import './style.css';
