@@ -4,12 +4,26 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "Carter_One variant0";
+    src: url('./CarterOne-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
 body {
     background-color: white;
 }
 
 .logo {
     width: 200px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    color: aliceblue;
+    font-family: "Carter_One variant0";
 }
 
 #content {
