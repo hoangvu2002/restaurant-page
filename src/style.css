@@ -5,14 +5,37 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: white;
 }
 
-img {
-    height: 400px;
+.logo {
+    width: 200px;
 }
 
 #content {
+    margin: 0 auto;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-bar {
+    background-color: black;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    padding: 10px;
+}
+
+.nav-bar button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: white solid 1px;
 }
