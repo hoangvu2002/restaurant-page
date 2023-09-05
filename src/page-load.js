@@ -1,4 +1,5 @@
 import myImage from './Daco_1750329.png';
+import myBackground from './pexels-lina-kivaka-1458757.jpg'
 export default function pageLoad() {
     const content = document.getElementById('content');
     const logo = document.createElement('img');
@@ -20,8 +21,14 @@ export default function pageLoad() {
     content.appendChild(logo);
     content.appendChild(heading);
     content.appendChild(nav);
+    const body = document.querySelector('body');
+    body.style.backgroundImage = `url(${myBackground})`;
+    body.style.backgroundSize = 'cover';
+    body.style.backgroundPosition = 'center';
+    body.style.backgroundRepeat = 'no-repeat';
 }
 
 function setBackgroundImage() {
-
+    const body = document.querySelector('body');
+    body.style.backgroundImage = myBackground;
 }
