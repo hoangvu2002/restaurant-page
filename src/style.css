@@ -60,3 +60,25 @@ h1 {
     scale: 1.2;
     font-weight: bolder;
 }
+
+.header {
+    background-color: #FF6F61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.welcome {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.about {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}

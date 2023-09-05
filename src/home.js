@@ -16,6 +16,7 @@ export default function homeTab() {
     welcomeDesc.textContent = 'We take pride in serving you exquisite dishes prepared with the freshest ingredients. At Ratatouille, we believe that dining is an experience that should delight all your senses. Our talented chefs are dedicated to crafting dishes that will leave you craving for more.';
     welcome.appendChild(welcomeText);
     welcome.appendChild(welcomeDesc);
+    welcome.classList.add('welcome');
     const about = document.createElement('div');
     const aboutHeading = document.createElement('h2');
     const aboutText = document.createElement('p');
@@ -26,6 +27,7 @@ export default function homeTab() {
     about.appendChild(aboutHeading);
     about.appendChild(aboutText);
     about.appendChild(aboutDesc);
+    about.classList.add('about');
     content.appendChild(header);
     content.appendChild(welcome);
     content.appendChild(about);
