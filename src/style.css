@@ -38,4 +38,11 @@ body {
     font-weight: bold;
     cursor: pointer;
     border: white solid 1px;
+    border-radius: 5%;
+    transition: 0.2s;
+}
+
+.nav-bar button:hover {
+    scale: 1.2;
+    font-weight: bolder;
 }
