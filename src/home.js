@@ -29,6 +29,7 @@ export default function homeTab() {
     about.appendChild(aboutDesc);
     about.classList.add('about');
     content.appendChild(header);
-    content.appendChild(welcome);
-    content.appendChild(about);
+    content.appendChild(container)
+    container.appendChild(welcome);
+    container.appendChild(about);
 }
