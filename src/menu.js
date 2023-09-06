@@ -9,6 +9,7 @@ export default function menuTab() {
     header.appendChild(greeting);
     header.appendChild(greetText);
     const container = document.createElement('div');
+    container.classList.add('container');
     const menuItem1 = document.createElement('div');
     const menuItem1Heading = document.createElement('h3');
     const menuItem1Desc = document.createElement('p');

@@ -9,6 +9,7 @@ export default function contactTac() {
     header.appendChild(greeting);
     header.appendChild(greetText);
     const container = document.createElement('div');
+    container.classList.add('container');
     const contactInfo1 = document.createElement('div');
     const address = document.createElement('h2');
     const addressDesc1 = document.createElement('p');

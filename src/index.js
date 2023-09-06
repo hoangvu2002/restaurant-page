@@ -4,4 +4,4 @@ import homeTab from './home';
 import menuTab from './menu';
 import contactTab from './contact';
 pageLoad();
-contactTab();
+menuTab();
