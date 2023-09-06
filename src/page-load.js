@@ -8,6 +8,9 @@ export default function pageLoad() {
     const home = document.createElement('button');
     const menu = document.createElement('button');
     const contact = document.createElement('button');
+    home.classList.add('home');
+    menu.classList.add('menu');
+    contact.classList.add('contact');
     nav.appendChild(home);
     nav.appendChild(menu);
     nav.appendChild(contact);
