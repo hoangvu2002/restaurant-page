@@ -5,6 +5,11 @@ import menuTab from './menu';
 import contactTab from './contact';
 import clearContent from './clearContent';
 pageLoad();
-menuTab();
-clearContent();
-menuTab();
+
+const buttons = document.querySelectorAll('button');
+buttons.forEach((button) => {
+    button.addEventListener('click', (event) => {
+        buttons.forEach((button) => button.classList.remove('active'));
+        event.target.classList.add('active');
+    })
+})
