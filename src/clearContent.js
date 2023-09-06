@@ -1,8 +1,7 @@
 export default function clearContent() {
     const content = document.getElementById('content');
-    if (content) {
-        while (content.firstChild) {
-            content.removeChild(content.firstChild);
-        }
-    }
+    const header = document.querySelector('.header');
+    const container = document.querySelector('.container');
+    content.removeChild(header);
+    content.removeChild(container);
 }

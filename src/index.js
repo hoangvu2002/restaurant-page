@@ -3,5 +3,8 @@ import pageLoad from './page-load.js';
 import homeTab from './home';
 import menuTab from './menu';
 import contactTab from './contact';
+import clearContent from './clearContent';
 pageLoad();
+menuTab();
+clearContent();
 menuTab();
